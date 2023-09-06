@@ -1,0 +1,35 @@
+.{
+}
+
+.header {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 2%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+input.search {
+  width: 150%;
+  border: 1px solid grey;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  display: block;
+  background-color: black;
+}
+
+button{
+  color: red;
+  background-color: black;
+  border: 1.5px solid red;
+  padding: 15%;
+  border-radius: 9px;
+  font-size: 12px;
+}
+
+p {
+  color: red;
+}
