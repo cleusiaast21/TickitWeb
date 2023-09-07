@@ -1,4 +1,6 @@
 import './Header.css';
+import logo from '../assets/tickit_logo.jpg';
+import IonIcon from '@reacticons/ionicons';
 
 export default function Header() {
   return (
@@ -10,7 +12,7 @@ export default function Header() {
       </div>
 
       <div className="logo-container">
-        <p>TICKIT</p>
+        <img src={logo} alt="" />
       </div>
 
       <div className="login-container">
@@ -18,7 +20,8 @@ export default function Header() {
       </div>
 
     </div>
-
+/**       
+*/
 
   );
 }
