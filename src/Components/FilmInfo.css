@@ -1,33 +1,112 @@
-p{
+
+.container p{
     color: white;
+    padding-inline: 5%;
 }
 
-h2{
+.container h2{
     color: white;
+    padding-inline: 5%;
 }
 
 .container{
     background-color: rgba(0, 0, 0, 0.2);
-    width: 57%;
+    width: 65%;
     border-radius: 15px;
-    border: 1px solid red;
+    border: 1.5px solid red;
     justify-content: center;
+    margin: 30px;
 }
 
 hr{
     color: white;
-    margin: 5px;
+    margin-inline: 5%;
+    margin-bottom: 2%;
+    border: 0.25px solid white;
 }
 
 .thumbnail{
     width: 90%;
-    border-radius: 15px;
+    border-radius: 30px;
     align-self: center;
     padding-inline: 5%;
+}
 
+.video{
+    padding-inline: 5%;
+    margin-bottom: 15px;
 }
 
 .outer-container{
     display: flex;
     justify-content: center;
+}
+
+.book{
+
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    padding-inline: 5%;
+
+}
+
+.book-button{
+    border: 1px solid red;
+    color: white;
+    background-color: red;
+    font-weight: bold;
+    margin-left: 10px;
+    padding: 12px 22px 12px 22px;
+    font-size: 11px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.interested{
+    align-self: center;
+    font-size: 13px;
+}
+
+.director-and-cast{
+    display: flex;
+    flex-direction: row;
+    padding-inline: 5%;
+
+}
+
+.director,
+.cast{
+    display: flex;
+    flex-direction: column;
+    color: grey;
+
+}
+
+.images{
+    display: flex;
+    flex-direction: row;
+}
+
+.actor-image{
+    width: 130px;
+    height: 130px;
+    border-radius: 15px;
+    margin: 5px 5px 5px 5px;
+}
+
+.actor{
+    color: grey;
+    align-self: center;
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.titulo{
+    font-size: 17px;
+    color: grey;
+    font-weight: bold;
+    margin-bottom: 15px;
+
 }

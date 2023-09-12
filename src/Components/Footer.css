@@ -1,50 +1,57 @@
 .footer {
-    background-image: url('../Assets/pexels-donald-tong-109669.jpg');
-    background-repeat: no-repeat; /* Evita repetição da imagem */
-    background-position: center center; /* Centraliza a imagem */
-    color: white;
-    text-align: center;
-    padding: 20px;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 40%; /* Preenche a altura da tela */
-    background-size: cover; /* Redimensiona a imagem para cobrir a área */
-  }
-  
-  .footer-title {
-    color: red;
-  }
-  
-  .footer-download {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-  }
-  
-  .googlePlay img{
-    width: 90%; /* Ajuste o tamanho conforme necessário */
-    height: 160px;
-    margin: 0 10px; /* Espaçamento entre as imagens */
-  }
+  background-image: url('../assets/pexels-donald-tong-109669.jpg');
+  background-repeat: no-repeat;
+  /* Evita repetição da imagem */
+  background-position: center center;
+  /* Centraliza a imagem */
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 40%;
+  /* Preenche a altura da tela */
+  background-size: cover;
+  /* Redimensiona a imagem para cobrir a área */
+}
 
-  .appStore img {
-    width: 78%; /* Ajuste o tamanho conforme necessário */
-    height: 60px;
-    margin: 0 10px; /* Espaçamento entre as imagens */
-  }
-  
-  .footer-lorem {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 20px;
-  }
-  
-  .footer-lorem-item {
-    flex: 1;
-    padding: 10px;
-    text-align: center;
-  }
-  
+.footer-title {
+  color: red;
+}
+
+.footer-download {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.googlePlay img {
+  width: 90%;
+  /* Ajuste o tamanho conforme necessário */
+  height: 160px;
+  margin: 0 10px;
+  /* Espaçamento entre as imagens */
+}
+
+.appStore img {
+  width: 78%;
+  /* Ajuste o tamanho conforme necessário */
+  height: 60px;
+  margin: 0 10px;
+  /* Espaçamento entre as imagens */
+}
+
+.footer-lorem {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.footer-lorem-item {
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+}

@@ -16,12 +16,11 @@ export default function Header() {
       </div>
 
       <div className="login-container">
-        <button >LOGIN</button>
+        <button>LOGIN</button>
       </div>
 
     </div>
-/**       
-*/
+
 
   );
 }
